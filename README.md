@@ -2,6 +2,10 @@
 
 A responsive FAQ accordion component built as part of a Frontend Mentor challenge. Users can expand and collapse questions to reveal the answers. The project is designed using HTML and SCSS with PostCSS for styling.
 
+## Demo
+
+[Site](https://wgalik.github.io/faq-accordion-main/)
+
 ## Technologies
 
 - **HTML5** – structured semantic markup for questions and answers

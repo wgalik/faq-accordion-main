@@ -1,0 +1,24 @@
+{
+  "name": "faq-accordion-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the FAQ accordion coding challenge](preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:build": "sass scss:css --style=expanded --embed-source-map",
+    "sass:watch": "sass scss:css --style=expanded --embed-source-map --watch",
+    "postcss:watch": "postcss css/*.css --dir css --watch",
+    "watch": "npm run sass:build && concurrently \"npm run sass:watch\" \"npm run postcss:watch\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.22",
+    "concurrently": "^9.2.1",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "sass": "^1.94.0",
+    "scss": "^0.2.4"
+  }
+}
