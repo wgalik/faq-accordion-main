@@ -68,14 +68,14 @@ article {
     width: 100%;
     gap: 1rem;
     padding: 1rem 0;
-    h2 {
+    .faq-title {
       color: $Purple950;
       font-size: 1rem;
       font-weight: 600;
       flex: 1 1 50%;
     }
     .button {
-      background-image: url("/assets/images/icon-minus.svg");
+      background-image: url("/assets/images/icon-plus.svg");
       width: 2rem;
       aspect-ratio: 1/1;
       border: none;
@@ -83,7 +83,7 @@ article {
     }
     &:hover {
       cursor: pointer;
-      h2 {
+      .faq-title {
         color: $Pink;
       }
     }
@@ -101,5 +101,5 @@ article input:checked + header + p {
   padding-bottom: 1rem;
 }
 article input:checked + header label .button {
-  background-image: url("/assets/images/icon-plus.svg");
+  background-image: url("/assets/images/icon-minus.svg");
 }
